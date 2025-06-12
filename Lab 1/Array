@@ -1,41 +1,54 @@
+/*
+id: 22010126
+name: muni
+group: g3
+lab: L1
+*/
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-struct Student {
+struct Student
+{
     int id;
     string name;
     string contact;
     string email;
 };
 
-int main() {
-   
+int main() 
+{
+   Student students[5];
 
-    for (int i = 0; i < n; ++i) {
-        cout << "\nEnter details for student " << i + 1 << ":\n";
-        cout << "ID: 
+    cout << "Enter details for student:\n";
+    for (int i = 0; i < 5; i++) 
+    {
+        cout << "\nStudent " << (i + 1) << ":\n";
+        cout << "Enter ID: ";
         cin >> students[i].id;
-        cin.ignore();  // Clear newline after ID input
+        cin.ignore();  
 
-        cout << "Name: ";
+        cout << "Enter Name: ";
         getline(cin, students[i].name);
 
-        cout << "Contact: ";
+        cout << "Enter Contact: ";
         getline(cin, students[i].contact);
 
-        cout << "Email: ";
+        cout << "Enter Email: ";
         getline(cin, students[i].email);
     }
 
     cout << "\nStudent Data:\n";
-    for (int i = 0; i < n; ++i) {
-        cout << "\nStudent " << i + 1 << ":\n";
-        cout << "ID: " << students[i].id << endl;
-        cout << "Name: " << students[i].name << endl;
-        cout << "Contact: " << students[i].contact << endl;
-        cout << "Email: " << students[i].email << endl;
+    cout << "-----------------------------------------\n";
+    for (int i = 0; i < 5; i++) 
+    {
+        cout << "\nStudent " << i + 1;
+        cout << "ID: " << students[i].id;
+        cout << "Name: " << students[i].name;
+        cout << "Contact: " << students[i].contact;
+        cout << "Email: " << students[i].email;
     }
 
     return 0;
