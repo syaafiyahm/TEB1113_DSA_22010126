@@ -2,7 +2,8 @@
 id: 22010126
 name: muni
 group: G1
-lab: Lab G1*/
+lab: Lab G1
+*/
 
 #include <iostream>
 #include <string>
