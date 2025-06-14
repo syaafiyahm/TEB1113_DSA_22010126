@@ -1,3 +1,10 @@
+/*
+id: 22010126
+name: muni
+group: g3
+lab: L2
+*/
+
 #include <iostream>
 #include <string>
 
