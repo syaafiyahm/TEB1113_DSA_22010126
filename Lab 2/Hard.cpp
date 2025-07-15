@@ -1,7 +1,7 @@
 /*
 id: 22010126
 name: muni
-group: g3
+group: G3
 lab: L2
 */
 
