@@ -1,7 +1,7 @@
 /*
 id: 22010126
 name: muni
-group: G4
+group: G3
 lab: Lab G1*/
 
 #include <iostream>
